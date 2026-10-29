@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local application data and generated credential reports
+drras.db
+drras.db-shm
+drras.db-wal
+docs/DEMO_*_CREDENTIALS.md
+docs/DEMO_CREDENTIALS.md
+outputs/
+
+# Local and deployment secrets
+.env
+.env.*
+!.env.example
+.vercel/
